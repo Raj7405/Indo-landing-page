@@ -61,11 +61,14 @@ a{
 }
 .mainText .text p{
     width: 100%;
-    padding: 20px;
+    padding: 6px;
     font-size: 59px;
 }   
 .mainText .button-1{
     width: 100%;
+}
+.lowerBoolatine{
+    width: 75%;
 }
 
 
@@ -75,18 +78,35 @@ a{
 }
 .article-2{
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 }
-
+.articleContent h3{
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.articleContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
 /* Slider Section */
 .sliderNav{
     bottom: 0%;
 }
-
+.sliderHead{
+    width: 70%;
+}
 
 /* video Section */
+.topVideoSection{
+    height: 50%;
+}
+.preview{
+    width: 90%;
+}
 .topCard{
    width: 300px;
    max-width: 300px;
@@ -107,7 +127,7 @@ a{
     gap: 20px;
 }
 .bottomCard .card-b{
-    width: 60%;
+    width: 90%;
 }
 .card-b h3{
     font-size: 40px;
@@ -139,7 +159,9 @@ a{
     bottom: -20%;
     z-index: -1;
 }
-
+.overlayContent{
+    gap: 25%;
+}
 .overlayContent h3{
     max-width: 360px;
     height: 100px;
@@ -169,9 +191,13 @@ a{
     padding-top: 30px;
 }
 .gettingThereMain{
+    width: 90%;
     padding-top: 30px;
     padding-bottom: 100px;
     gap: 20px;
+}
+.gettingThereText .content{
+    align-items: center;
 }
 .extraContentText .main-p{
     display: none;    

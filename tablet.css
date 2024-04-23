@@ -162,6 +162,14 @@ a{
 }
 
 
+/* SubSection */
+.topCard{
+    width: 312px;
+}
+.topCard h3{
+    font-size: 40px;
+}
+
 
 /* Video Section */
 .video{
@@ -188,6 +196,7 @@ a{
     gap: 20px;
 }
 .preview{
+    width: 50%;
     flex-direction: column;  
     align-items: center;
 }
