@@ -76,7 +76,10 @@ button{
     font-size: 18px;
 }
 .topSeaction ul{
-    gap: 50px;
+    padding: 0 25px;
+}
+.topSeaction li{
+    margin-right: 15px;
 }
 
 
@@ -88,9 +91,11 @@ button{
 }
 .navLeft, .navRight{
     align-items: center;
-    gap: 50px;   
+    margin-right: 15px;   
 }
-
+.navRight .search{
+    margin: 0 25px; 
+}   
 
 /* Hero Section */
 .topSeactionMid{
@@ -264,21 +269,21 @@ button{
     align-items: center;
 }
 .articleMain{
-    width: 80%;
+    width: 100%;
+    max-width: 1500px;
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    gap: 5%;
 }
 .articleMain .articleContent{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     max-width: 480px;
-    gap: 20px;
 }
 .articleImg img{
-    width: 80%;
+    width: 100%;
+    max-width: 630px;
     height: 80%;
     border-radius: 10px;
 }
@@ -290,6 +295,10 @@ button{
     font-size: 42px;
     font-weight: 700;
     line-height: 50px;
+    padding-bottom: 20px;
+}
+.articleContent p{
+    padding-bottom: 20px;
 }
 
 
@@ -303,7 +312,6 @@ button{
     background-repeat: no-repeat;
 }
 .move-down{
-
     padding-top: 127px;
 }
 
@@ -313,6 +321,7 @@ button{
     position: relative;
     margin: auto;
     max-width: 1200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -375,16 +384,21 @@ button{
     color: var(--primary-text-color);
 }
 .subSection{
+    padding: 201px 0 224px;
+}
+.mainSubSection{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    padding: 201px 322px 224px;
 }
 .topCard{
     width: 500px;
     text-align: center;
+    margin-bottom: 40px;
 }
 .topCard h3{
     font-size: 60px;
@@ -433,6 +447,7 @@ button{
     z-index: -1;
 }
 .overlayContent{
+    width: 100%;
     max-width: 620px;
     text-align: center;
     display: flex;
@@ -477,15 +492,17 @@ button{
     justify-content: space-around;
 }
 .topVideoSection{
-    width: 60%;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 67px;
 }
 .videoHeading{
     margin: auto;
-    width: 90%;
+    width: 100%;
+    max-width: 1140px;
+    padding-bottom: 70px;
 }
 .videoHeading h3{
     font-size: 42px;
@@ -496,7 +513,8 @@ button{
 .videoPlayer{
     position: relative;
     margin: auto;   
-    width: 90%;
+    width: 100%;
+    max-width: 1140px;
 }
 .videoPlayer img{
     width: 100%;
@@ -522,29 +540,30 @@ button{
     text-align: center;
 }
 .videoPreviewSection{
-    width: 70%;
+    max-width: 1284.74px;
+    width: 100%;
     padding-top: 125px;
     display: flex;
-    gap: 20px;
 }
 .preview{
     width: 50%;
     display: flex;
-    gap: 20px;
+    padding-right: 20px;
 }
 .preview img{
     width: 233px;   
+    padding-right: 20px;
 }
 .previewText {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
 }
 .previewText h5{
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
+    padding-bottom: 20px;
 }
 .previewText p{
     color: #ffffffca;
@@ -560,13 +579,13 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5%;
     padding-top: 177px;
     padding-bottom: 229px;
 
 }
 .photoGallaryText{
-    width: 70%;
+    max-width: 615px;
+    width: 100%;
     height: fit-content;
     text-align: center;
 }
@@ -580,7 +599,8 @@ button{
     width: 511px;
 }
 .photoGallaryImg{
-    width: 80%;
+    max-width: 1170px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -623,17 +643,17 @@ button{
 .gettingThere{
     width: 100%;
     padding-top: 119px;
-    padding-bottom: 117px;
+    padding-bottom: 30px;
     background-color: #DCE8F2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 44px;
 }
 .gettingThereTitle{
     width:70%;
     color: var(--primary-color);   
+    margin-bottom: 44px;
 }
 .gettingThereTitle h2{
     padding-left: 40px;
@@ -647,7 +667,6 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 88px;
 }
 
 .gettingThereText{
@@ -655,6 +674,7 @@ button{
     color: var(--primary-color);
     display: flex;
     justify-content: space-around;
+    margin-bottom: 88px;
 }
 .gettingThereText .srNo { 
     position: relative;
@@ -682,23 +702,28 @@ button{
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 30px; 
 }
 .content p{
     color: var(--primary-color);
+    margin-bottom: 30px;
 }
 .content h3{
     font-size: 26px;
+    margin-bottom: 30px;
 }
 .extraContent{
-    margin-top: 93px;
+    margin-top: 73px;
     margin-bottom: 10px;
     width: 60%;
     display: flex;
-    gap: 30px;
+}
+.extraContent img{
+    margin-right: 30px      ;
+    margin-bottom: 30px;
 }
 .extraContentText h5{
     font-size: 23px;
+    margin-bottom: 30px;
 }
 .repo-text{
     display: none;
@@ -730,22 +755,22 @@ button{
 }
 .footerLeft .footerLogo{
     margin-top: 39px;
-    margin-bottom: 31px ;
+    margin-bottom: 25px ;
 }
 .footerNav{
     display: flex;
-    gap: 20px;
     color: var(--primary-text-color);
+}
+.footerSection img, .footerNav a, .socialLink{
+    margin-right: 36px;
 }
 .footerSocial{
     padding: 2%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 50px;
 }
 .socialLink{
     margin-top: 10px;
     display: flex;
-    gap: 48px;
 }
