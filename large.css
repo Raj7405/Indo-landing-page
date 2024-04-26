@@ -44,7 +44,18 @@ a{
 }
 
 
-
+.nav-links{
+    display: none;
+}
+.lineOne, .lineTwo{
+    left: 102.04px;
+}
+.num{
+    left: 97px;
+}
+.lowerLang .verticleLang{
+    left: 60px;
+}
 /* Article Section */
 .articleMain{
     flex-direction: column;
@@ -72,7 +83,15 @@ a{
     width: 100%;
 }
 
+/* Video Section */
+.preview{
+   flex-direction: column;
+   align-items: center;
+}
+.preview{
+    text-align: center;
 
+}
 
 /* Overlay Section */
 .overlaySaction .overlay-1{
@@ -87,6 +106,9 @@ a{
     z-index: -1;
 }
 
+.subSection{
+    padding: 50px 40px 50px;
+}
 
 
 /* Getting There Section */
@@ -94,3 +116,45 @@ a{
     width: 90%;
 }
 
+.footerSection{
+    position: relative;
+    margin-bottom:-10px ;
+    /* height: 764px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerArrow{
+
+    top: -8%;
+    left: 43%   ;
+}
+.footerLeft{
+    padding-top: 30px;
+    flex-direction: column;
+    /* gap: 40px;    */
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.footerNav{
+    text-align: center;
+    font-size: 22px;
+    flex-direction: column;
+    /* gap: 40px; */
+}
+.footerSocial{
+    flex-direction: column;
+    /* gap: 30px; */
+    margin-bottom: 83px;
+}
+.socialLink{
+    display: flex;
+    justify-content: space-around;
+}
+.socialLink a{
+    margin:  0 10px;
+}
+.footerSection img, .footerNav a, .socialLink{
+    margin-right: 0;
+    margin-bottom: 20px;
+}

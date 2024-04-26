@@ -45,9 +45,16 @@ a{
 
 
 /* main Section */
-.topSeaction{
-    height: 1090px;
+.mainText{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
 }
+.topSeaction{
+    padding-bottom: 368px;
+    /* height: 1090px; */
+}
+
 
 
 
@@ -67,17 +74,20 @@ a{
 }
 .mainText{
     width: 90%;
+    padding-top: 20px;
     align-items: center;
 }
-.mainText .text p{  
-    width: 90%;
+
+.mainText h1{  
     margin: auto;
-    font-size: 100px;
+    font-size: 58px;
 }
 .topSeactionMid{
     justify-content: center;
-    height: 30%;
+    padding-top: 55px;
+    /* height: 30%; */
 }
+
 
 
 
@@ -85,7 +95,8 @@ a{
 .topSeactionLower{
     margin-block-start: 0;
     flex-direction: column;
-    height: 55%;
+    /* height: 58%; */
+    margin-bottom: 40px;
 }
 .lowerBoolatine{
     flex-direction: column;
@@ -97,10 +108,13 @@ a{
 .lowerVideo{
     align-self: center;
     width: 314px;
-    height: 473px; 
+    /* height: 473px;  */
 }
 .lowerVideo img{
     height: 90%;
+}
+.card{
+    padding-top: 15px; 
 }
 .card p:last-of-type{
     font-size: 16px;
@@ -163,6 +177,9 @@ a{
 
 
 /* SubSection */
+.subSection{
+    padding: 50px 40px 50px;
+}
 .topCard{
     width: 312px;
 }
@@ -174,18 +191,16 @@ a{
 /* Video Section */
 .video{
     justify-content: flex-start;
+    padding-bottom: 10px;
 }
 .topVideoSection{
     width: 90%;
     padding: 20px;
-    height: 40%;
-}
-.videoHeading{
-    height: 50%;     
+    /* height: 40%; */
 }
 .videoHeading h3{
     margin:auto;
-    font-size: 40px;
+    font-size:35px;
 }
 .videoPreviewSection{
     width: 90%;
@@ -193,12 +208,18 @@ a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    padding-top: 20px;
+    /* gap: 20px */
 }
 .preview{
     width: 50%;
     flex-direction: column;  
     align-items: center;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.preview img{
+    padding-right: 0;
 }
 .previewText {
     width: 100%;
@@ -230,37 +251,57 @@ a{
     padding-top: 20px;
     font-size: 40px;
     line-height: 46px;
+    padding-bottom: 20px;
 }
 .photoGallaryText p{
     max-width: 100%;
     font-size: 16px;
 }
 .photoGallaryImg{
-    height: 40%;
+    /* height: 40%;  */
+    padding-top: 10px;
 }
 .photoGallary{
     justify-content: flex-start;
-    gap: 20%;
-    height: fit-content;
+    /* gap: 20%; */
+    /* height: fit-content; */
 }
 
 
 
 /* Getting There Section */
+.gettingThere{
+    padding-bottom: 32px;
+}
+.gettingThereTitle{
+    margin-bottom: 20px;
+}
+
 .gettingThereTitle h2{
     margin: auto;
     text-align: center;
     padding-left: 0;
     font-size: 40px;
 }
+.longLine{
+    display: none;
+}
 .gettingThereText {
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.gettingThereText .content{
     align-items: center;
 }
 .content h3{
     text-align: center;
     width: 100%;
     font-size:22px ;
+    margin-bottom: 10px;
+}
+.content p{
+    margin-bottom: 10px;
 }
 .extraContent{
     text-align: center;
@@ -275,26 +316,35 @@ a{
     color: var(--secondary-btn-color);
     display: block;
 }
+.extraContent{
+    margin-top: 10px;
+}
+.extraContent h5{
+    display: none;
+}
 
 
 
 /* Footer section */
-.footerSection{
+/* .footerSection{
     position: relative;
-    margin-bottom:-10px ;
-    height: 764px;
-    flex-direction: column;
+    margin-bottom:-10px ; */
+    /* height: 764px; */
+    /* flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
-.footerArrow{
-    position: absolute;
-    top: -5%;
+} */
+/* .footerArrow{
+
+    top: -8%;
+    left: 43%   ;
 }
 .footerLeft{
     padding-top: 30px;
     flex-direction: column;
     gap: 40px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 .footerNav{
     text-align: center;
@@ -305,4 +355,9 @@ a{
 .footerSocial{
     flex-direction: column;
     gap: 30px;
+    margin-bottom: 83px;
+} */
+.socialLink{
+    display: flex;
+    justify-content: space-around;
 }
